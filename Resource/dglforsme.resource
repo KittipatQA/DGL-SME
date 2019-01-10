@@ -5,8 +5,9 @@ Library              DateTime
 *** Variables ***
 ${open_url}          https://dgl-acct.addtechhub.com
 ${login_url}         ${open_url}/login            
-${Output_url}        /Users/USER1/.jenkins/workspace/DGL/Screen
+${Output_url}        /jar/home/jenkins/jenkins/workspace/DGL-SME/Screen
 ${Type of file}      png
+${path_jenkins}      /jar/home/jenkins/jenkins/workspace/DGL-SME
            
 *** Keywords ***
 Open the web page
