@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="true" generated="20190102 16:17:08.110" generator="Robot 3.1a2 (Python 2.7.15 on win32)">
+<suite source="d:\DGL\Case\BuyCase\otherExpense Add\TS_OE_Add_Cr_002.robot" id="s1" name="TS OE Add Cr 002">
+<kw type="setup" name="Open the web page">
+<msg timestamp="20190102 16:17:08.285" level="FAIL">No keyword with name 'Open the web page' found.</msg>
+<status status="FAIL" endtime="20190102 16:17:08.285" starttime="20190102 16:17:08.285"></status>
+</kw>
+<test id="s1-t1" name="2ตรวจสอบการเพิ่มรายการ_กรณี_นิติบุคคลมี_VATจ่ายเจ้าหนี้ไม่มี_VAT_รายการมี_TAX(2%)_">
+<status status="FAIL" endtime="20190102 16:17:08.288" critical="yes" starttime="20190102 16:17:08.285">Parent suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</test>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190102 16:17:08.290" starttime="20190102 16:17:08.290"></status>
+</kw>
+<status status="FAIL" endtime="20190102 16:17:08.291" starttime="20190102 16:17:08.112">Suite setup failed:
+No keyword with name 'Open the web page' found.</status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tasks</stat>
+<stat fail="1" pass="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="TS OE Add Cr 002" pass="0">TS OE Add Cr 002</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20190102 16:17:08.276" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense Add\TS_OE_Add_Cr_002.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\dglforsme.resource' does not exist.</msg>
+<msg timestamp="20190102 16:17:08.277" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense Add\TS_OE_Add_Cr_002.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Page\home_page.resource' does not exist.</msg>
+<msg timestamp="20190102 16:17:08.278" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense Add\TS_OE_Add_Cr_002.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Page\oe_page_add.resource' does not exist.</msg>
+<msg timestamp="20190102 16:17:08.279" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense Add\TS_OE_Add_Cr_002.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Page\login_page.resource' does not exist.</msg>
+<msg timestamp="20190102 16:17:08.279" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense Add\TS_OE_Add_Cr_002.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Logic\TS_OE_Add_Cr_2.resource' does not exist.</msg>
+<msg timestamp="20190102 16:17:08.279" level="ERROR">Error in file 'd:\DGL\Case\BuyCase\otherExpense Add\TS_OE_Add_Cr_002.robot': Resource file '\Users\USER1\.jenkins\workspace\DGL\Resource\keywords.resource' does not exist.</msg>
+</errors>
+</robot>
